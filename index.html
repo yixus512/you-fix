@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Used Music Gear Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #4CAF50;
+      padding: 10px;
+      color: white;
+      text-align: center;
+    }
+    header label {
+      display: none;
+    }
+    header input[type="text"] {
+      padding: 8px;
+      border-radius: 5px;
+      border: none;
+    }
+    header button {
+      padding: 8px 10px;
+      border: none;
+      border-radius: 5px;
+      margin-left: 10px;
+      cursor: pointer;
+      color: #fff;
+      background-color: #007bff;
+    }
+    section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 20px;
+    }
+    .product {
+      width: 30%;
+      background-color: #fff;
+      padding: 10px;
+      margin: 10px 0;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <label for="search-bar" style="display: none;">Search</label>
+    <input type="text" id="search-bar" placeholder="Search...">
+    <button id="search-btn">Search</button>
+    <button id="signup-btn">Sign Up</button>
+    <button id="login-btn">Login</button>
+  </header>
+  <section>
+    <div class="product">
+      <h2>Guitar</h2>
+      <p>Beautiful used guitar in great condition. Perfect for beginners and professionals alike.</p>
+    </div>
+    <div class="product">
+      <h2>Drums</h2>
+      <p>Full drum kit available. Well-maintained and ready for your next gig.</p>
+    </div>
+    <div class="product">
+      <h2>Microphone</h2>
+      <p>Professional-grade microphone with crystal clear sound. Ideal for studio recordings.</p>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2024 Used Music Gear. All rights reserved.</p>
+  </footer>
+</body>
+</html>
